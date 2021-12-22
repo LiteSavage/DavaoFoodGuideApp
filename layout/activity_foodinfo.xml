@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".foodinfo">
+
+
+    <TextView
+        android:id="@+id/namechange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="-2dp"
+        android:layout_y="218dp"
+        android:gravity="center"
+        android:text="ASKDJAIODUIOQUEIOQW"
+
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/descdisplay"
+        android:layout_width="390dp"
+        android:layout_height="62dp"
+        android:layout_x="4dp"
+        android:layout_y="186dp"
+        android:background="@drawable/et_layout"
+        android:scrollbars="vertical"
+        android:visibility="gone"
+        android:text="ASKDJAIODUIOQUEIOQWzxcxzczxcz"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/displi"
+        android:layout_width="379dp"
+        android:layout_height="349dp"
+        android:layout_margin="20dp"
+        android:layout_x="12dp"
+        android:layout_y="287dp"
+        android:height="0dp"
+        android:background="@drawable/et_layout"
+        android:enabled="true"
+        android:focusableInTouchMode="false"
+        android:gravity="top"
+        android:hint="Descriptionhhh"
+        android:inputType="textMultiLine"
+        android:maxLines="16"
+        android:padding="10dp"
+        android:scrollbars="vertical"
+        android:text="jhghghjgh"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/linky"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="12dp"
+        android:layout_y="659dp"
+        android:text="ASKDJAIODUIOQUEIOQWzxcxzczxcz"
+        android:autoLink="web"
+        android:textColor="@color/white"
+        android:textSize="13dp" />
+
+    <ImageView
+        android:id="@+id/imgz"
+        android:layout_width="234dp"
+        android:layout_height="205dp"
+        android:layout_x="80dp"
+        android:layout_y="7dp" />
+
+    <TextView
+        android:id="@+id/titlez"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="-2dp"
+        android:layout_y="263dp"
+        android:text="(Restaurant Description)"
+
+        android:textAlignment="center"
+        android:textColor="#08E3FF"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/inpo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="11dp"
+        android:layout_y="245dp"
+        android:text="Description:"
+        android:visibility="gone"
+        android:textAlignment="center"
+        android:textColor="#08E3FF"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/sors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="13dp"
+        android:layout_y="640dp"
+        android:text="Source Link:"
+        android:textAlignment="center"
+        android:textColor="#08E3FF"
+        android:textSize="14dp" />
+</AbsoluteLayout>

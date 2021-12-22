@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".foodadd"
+    android:background="@color/black">
+
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_width="121dp"
+        android:layout_height="109dp"
+        android:layout_x="146dp"
+        android:layout_y="64dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="256dp"
+        android:layout_height="47dp"
+        android:layout_x="75dp"
+        android:layout_y="214dp"
+        android:background="@drawable/et_layout"
+        android:hint="Place Name" />
+
+    <EditText
+        android:id="@+id/dessy"
+        android:layout_width="280dp"
+        android:layout_height="168dp"
+        android:layout_margin="20dp"
+        android:layout_x="66dp"
+        android:layout_y="365dp"
+        android:height="0dp"
+        android:gravity="top"
+        android:hint="Description"
+        android:background="@drawable/et_layout"
+        android:inputType="textMultiLine"
+
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/linkz"
+        android:layout_width="256dp"
+        android:layout_height="50dp"
+        android:layout_x="75dp"
+        android:layout_y="278dp"
+        android:background="@drawable/et_layout"
+        android:hint="Facebook Link" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="75dp"
+        android:layout_y="586dp"
+        android:background="@color/teal_200"
+        android:text="ADD"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="75dp"
+        android:layout_y="586dp"
+        android:background="@color/teal_200"
+        android:text="EDIT"
+        android:visibility="gone"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="250dp"
+        android:layout_y="585dp"
+        android:background="@color/teal_200"
+        android:text="DISPLAY"
+        android:textColor="@color/white" />
+
+
+</AbsoluteLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="1180dp"
+        android:layout_height="976dp"
+        android:layout_x="-404dp"
+        android:layout_y="-214dp"
+        android:src="@drawable/title"
+        tools:layout_editor_absoluteX="-151dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="303dp"
+        android:layout_height="63dp"
+        android:layout_x="50dp"
+        android:layout_y="498dp"
+        android:background="#6AE9EC"
+        android:text="GET STARTED"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:layout_x="70dp"
+        android:layout_y="464dp"
+        android:gravity="center"
+        android:text="Powered by: Misty Inc."
+        android:textColor="@color/white"
+        android:textSize="21dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:layout_x="74dp"
+        android:layout_y="655dp"
+        android:gravity="center"
+        android:text="We are not affiliated with\nDavao Food Guide Officials"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+
+</AbsoluteLayout>

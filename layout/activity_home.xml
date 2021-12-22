@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".home">
+
+    <ImageButton
+        android:id="@+id/newshop"
+        android:layout_width="333dp"
+        android:layout_height="149dp"
+        android:src="@drawable/bago"
+        android:layout_x="40dp"
+        android:layout_y="89dp"
+        android:background="@drawable/round_btn" />
+
+    <ImageButton
+        android:id="@+id/popular"
+        android:src="@drawable/popularz"
+        android:layout_width="160dp"
+        android:layout_height="188dp"
+        android:layout_x="217dp"
+        android:layout_y="258dp" />
+
+    <ImageButton
+        android:id="@+id/youtube"
+        android:src="@drawable/youtubez"
+        android:layout_width="160dp"
+        android:layout_height="91dp"
+        android:layout_x="40dp"
+        android:layout_y="256dp" />
+
+    <ImageButton
+        android:id="@+id/instagram"
+        android:layout_width="160dp"
+        android:src="@drawable/ig"
+        android:layout_height="91dp"
+        android:layout_x="42dp"
+        android:layout_y="356dp" />
+
+    <ImageButton
+        android:id="@+id/giveaways"
+        android:src="@drawable/giveaways"
+        android:layout_width="337dp"
+        android:layout_height="91dp"
+        android:layout_x="40dp"
+        android:layout_y="460dp" />
+
+    <ImageButton
+        android:id="@+id/blogs"
+        android:src="@drawable/blogs"
+        android:layout_width="343dp"
+        android:layout_height="79dp"
+        android:layout_x="38dp"
+        android:layout_y="564dp" />
+
+
+</AbsoluteLayout>
